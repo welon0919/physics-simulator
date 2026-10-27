@@ -4,16 +4,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc -b && vite build",
-    "typecheck": "tsc -b",
-    "lint": "oxlint",
-    "lint:fix": "oxlint --fix",
+    "dev": "vite",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
-    "preview": "vite preview",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
     "prepare": "husky",
-    "test": "vitest run --passWithNoTests"
+    "preview": "vite preview",
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc -b"
   },
   "dependencies": {
     "react": "^19.3.1",
@@ -43,5 +43,5 @@
     ],
     "*.{json,md,css,yml,yaml}": "oxfmt --no-error-on-unmatched-pattern"
   },
-  "packageManager":"pnpm@12.15.0"
+  "packageManager": "pnpm@12.15.0"
 }
