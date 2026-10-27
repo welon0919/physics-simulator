@@ -42,5 +42,6 @@
       "oxfmt --no-error-on-unmatched-pattern"
     ],
     "*.{json,md,css,yml,yaml}": "oxfmt --no-error-on-unmatched-pattern"
-  }
+  },
+  "packageManager":"pnpm@12.15.0"
 }
